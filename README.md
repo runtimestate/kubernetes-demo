@@ -8,14 +8,12 @@
 ```
 $ mvn clean install
 ```
-----
 
 ## Docker image
 
 ```
 $ mvn dockerfile:build
 ```
-----
 
 ## Kubernetes
 
