@@ -1,0 +1,4 @@
+FROM tomcat:8
+ARG WAR_FILE
+COPY ${WAR_FILE} /usr/local/tomcat/webapps/app.war
+CMD ["catalina.sh", "run"]
